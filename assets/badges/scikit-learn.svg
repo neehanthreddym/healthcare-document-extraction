@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="121" height="22" viewBox="0 0 121 22" role="img" aria-label="Metrics: scikit-learn">
+  <title>Metrics: scikit-learn</title>
+  <defs>
+    <linearGradient id="shine" x2="0" y2="100%"><stop stop-color="#fff" stop-opacity=".20"/><stop offset="1" stop-color="#000" stop-opacity=".12"/></linearGradient>
+    <clipPath id="rounded"><rect width="121" height="22" rx="4"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <path fill="#555" d="M0 0h52v22H0z"/>
+    <path fill="#a65d00" d="M52 0h69v22H52z"/>
+    <rect width="121" height="22" fill="url(#shine)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11">
+    <text x="26.0" y="15" fill="#010101" fill-opacity=".3">Metrics</text>
+    <text x="26.0" y="14">Metrics</text>
+    <text x="86.5" y="15" fill="#010101" fill-opacity=".3">scikit-learn</text>
+    <text x="86.5" y="14">scikit-learn</text>
+  </g>
+</svg>

@@ -1,0 +1,88 @@
+{
+  "synthetic_only": true,
+  "sample_count": 60,
+  "split": "evaluation",
+  "layouts": [
+    "review"
+  ],
+  "split_method": "template holdout; no document-level random split",
+  "seed": 20261024,
+  "manifest_sha256": "6579597201e66069940a234f03bba1b0f20ca24e29067cd91e06fbba7bb70c1f",
+  "ocr_word_error_rate": 0.0004110152075626798,
+  "word_edits": 1,
+  "reference_words": 2433,
+  "entity_overall": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 419,
+    "predicted": 419
+  },
+  "entity_by_field": {
+    "member_id": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 59,
+      "predicted": 59
+    },
+    "provider_name": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 59,
+      "predicted": 59
+    },
+    "service_date": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 59,
+      "predicted": 59
+    },
+    "procedure_code": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 59,
+      "predicted": 59
+    },
+    "diagnosis_code": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 59,
+      "predicted": 59
+    },
+    "requested_service": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 60,
+      "predicted": 60
+    },
+    "decision_status": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 64,
+      "predicted": 64
+    }
+  },
+  "missing_field_rate": 0.011904761904761904,
+  "unselected_field_rate_including_conflicts": 0.02142857142857143,
+  "ground_truth_missing_field_rate": 0.011904761904761904,
+  "evidence_coverage": 1.0,
+  "predicted_values": 419,
+  "traceable_values": 419,
+  "software": {
+    "spacy": "3.8.16",
+    "pytesseract": "0.3.13",
+    "PyMuPDF": "1.28.2",
+    "Pillow": "12.3.0",
+    "scikit-learn": "1.9.1"
+  },
+  "python": "3.13.7",
+  "tesseract": "5.5.2",
+  "pipeline_sha256": "1aa117983dc40361ee0e2503074372b6be302bc1e75f188be75e011469ef3115"
+}

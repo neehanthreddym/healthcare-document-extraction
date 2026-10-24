@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="22" viewBox="0 0 85 22" role="img" aria-label="NLP: spaCy">
+  <title>NLP: spaCy</title>
+  <defs>
+    <linearGradient id="shine" x2="0" y2="100%"><stop stop-color="#fff" stop-opacity=".20"/><stop offset="1" stop-color="#000" stop-opacity=".12"/></linearGradient>
+    <clipPath id="rounded"><rect width="85" height="22" rx="4"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <path fill="#555" d="M0 0h37v22H0z"/>
+    <path fill="#087fa4" d="M37 0h48v22H37z"/>
+    <rect width="85" height="22" fill="url(#shine)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11">
+    <text x="18.5" y="15" fill="#010101" fill-opacity=".3">NLP</text>
+    <text x="18.5" y="14">NLP</text>
+    <text x="61.0" y="15" fill="#010101" fill-opacity=".3">spaCy</text>
+    <text x="61.0" y="14">spaCy</text>
+  </g>
+</svg>
