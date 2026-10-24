@@ -29,6 +29,8 @@ streamlit run app.py
 
 Open <http://127.0.0.1:8501>. The 240 labeled scans and a scanned PDF upload fixture are bundled in `data/`. The measured environment used Python 3.13.7 and Tesseract 5.5.2; direct Python dependencies are pinned in `pyproject.toml`.
 
+For Streamlit Community Cloud, use main file path `app.py`, select Python **3.13**, and leave Secrets empty. Root-level `requirements.txt` lists the same Python dependencies as `pyproject.toml`; `packages.txt` installs Tesseract and its English language data on the server.
+
 ## Demo walkthrough
 
 1. Keep **Bundled sample**, layout **authorization**, sample **authorization-001**. Inspect its scan and expand **OCR text and processing stages** to compare raw text, normalized text, tokens, and spaCy entities.

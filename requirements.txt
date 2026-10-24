@@ -1,0 +1,9 @@
+# Keep in sync with [project.dependencies] in pyproject.toml.
+# Streamlit Community Cloud uses this file to install Python dependencies.
+streamlit==1.66.1
+spacy==3.8.16
+PyMuPDF==1.28.2
+Pillow==12.3.0
+pandas==2.3.3
+scikit-learn==1.9.1
+pytesseract==0.3.13
